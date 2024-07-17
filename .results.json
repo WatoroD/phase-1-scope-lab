@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 4,
+    "passes": 5,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-06-30T17:47:43.930Z",
-    "end": "2024-06-30T17:47:44.383Z",
-    "duration": 453
+    "failures": 0,
+    "start": "2024-07-17T16:14:18.125Z",
+    "end": "2024-07-17T16:14:18.683Z",
+    "duration": 558
   },
   "tests": [
     {
@@ -29,12 +29,7 @@
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'maybe bob' to equal undefined",
-        "showDiff": true,
-        "actual": "maybe bob",
-        "stack": "AssertionError: expected 'maybe bob' to equal undefined\n    at Context.<anonymous> (test/indexTest.js:21:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
@@ -52,20 +47,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "setBestCustomer",
-      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'maybe bob' to equal undefined",
-        "showDiff": true,
-        "actual": "maybe bob",
-        "stack": "AssertionError: expected 'maybe bob' to equal undefined\n    at Context.<anonymous> (test/indexTest.js:21:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns the customerName",
@@ -78,6 +60,13 @@
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
